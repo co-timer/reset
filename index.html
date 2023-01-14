@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>t3g</title>
+        <script type="text/javascript" src="/js/script.js?ver=12345" defer></script>
+        <script src="/js/uikit.js"></script>
+        <script src="/js/uikit-icons.js"></script>
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/uikit.css" />
+    </head>
+    <body>
+        <div id="section" class="uk-section uk-section-secondary" uk-height-viewport="expand: true">
+            <div class="uk-container uk-position-center">
+                <div class="ring" id="loader">
+                    Loading
+                    <span></span>
+                </div>
+                <div id="timer" hidden>
+                    <div class="uk-flex uk-flex-center">Next Cosmic Reward Reset In:</div>
+                    <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-hours" id="hours"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-minutes" id="mins"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-seconds" id="secs"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
